@@ -4,7 +4,7 @@
 const h1 = document.getElementById('result');
 // const plusButton = document.querySelector('button');
 // const plusButton = document.querySelector('.plusButton')[0];
-const plusButton = document.querySelectorAll('.plusButton');
+// const plusButton = document.querySelectorAll('.plusButton');
 
 let count = 0;
 
@@ -28,3 +28,8 @@ plusButton.addEventListener('click', () => {
 //     count++;
 //     h1.textContent = count;
 // };
+
+function plus() {
+    count++;
+    h1.textContent = count;
+}
