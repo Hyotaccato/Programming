@@ -19,10 +19,10 @@ let count = 0;
 //     resultH1.textContent = count;
 // }
 
-plusButton.addEventListener('click', () => {
-    count++;
-    resultH1.textContent = count;
-});
+// plusButton.addEventListener('click', () => {
+//     count++;
+//     resultH1.textContent = count;
+// });
 
 // plusButton.onclick = () => {
 //     count++;
@@ -30,7 +30,7 @@ plusButton.addEventListener('click', () => {
 // };
 
 resultH1.innerHTML = count;
-function plus() {
-    count++;
+function plus(number=1) {
+    count += number;
     resultH1.innerHTML = count;
 }
