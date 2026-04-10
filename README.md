@@ -1,10 +1,13 @@
-# Programming 소스 코드 😳
+# Programming 소스 코드 🥱
 ## 02_counter
-vanilla HTML, JavaScrpit
-
-## React 시작 🤭
+vanilla HTML, JavaScript
+## React 시작 🦥
 ```shell
-npm create vite@latest.
+npm create vite@latest .
 ```
-
-### CounterApp 🤗
+### CounterApp 😴
+- `useState(초기값)`
+- `onClick={() => set함수(바꿀값)}`
+- `onClick={() => set함수((이전state) => 이전state + 1)}`
+- `onClick={함수이름}`
+### TodoListApp 🧂
